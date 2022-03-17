@@ -1,0 +1,174 @@
+body{
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    grid-template-rows: 100vh;
+    background-color: #191816;
+    margin: 0px;
+    font-family: "Poppins";
+    color: #afb6c2;
+}
+
+h1{
+    color: #d4ccb6;
+    margin-left: 10px;
+    font-size: 20pt;
+}
+
+#box-formulario{
+    background-color: #24221F;
+    border-radius: 4px;
+    border:  solid #24221F;
+    height: 530px;
+    width: 572px;
+    margin-top: 30px;
+    margin-left: 74px;
+   
+}
+
+.div-conteudo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#informacao-cadastro{
+    margin-top: -20px;
+    font-size: 16px;
+}
+
+#form{
+    margin-top: 55px;
+    margin-left: 119px;
+}
+
+#inputEmail{
+    height: 44px;
+    width: 295px;
+    border-radius: 4px; 
+    font-size: 14px;
+    font-weight: normal;
+    padding-left: 40px;
+
+    background-color: #24221f;
+    border: 1px solid #afb6c2;
+    background-position: 9px;
+
+    background-image: url(./images/mail.svg);
+    background-repeat: no-repeat;
+}
+
+#inputEmail:focus{
+    outline: 0;
+    border-width: 2px;
+    border-color: #ffc632;
+
+    background-image: url(./images/mail-focus.svg);
+    background-repeat: no-repeat;
+    background-position: 9px;
+}
+
+#inputPassword{
+    height: 44px;
+    width: 295px;
+    border-radius: 4px; 
+    font-size: 14px;
+    font-weight: normal;
+    padding-left: 40px;
+
+    background-color: #24221f;
+    border: 1px solid #afb6c2;
+    background-position: 9px;
+
+    background-image: url(./images/lock.svg);
+    background-repeat: no-repeat;
+    background-position: 9px;
+}
+
+#inputPassword:focus{
+    outline: 0;
+    border-width: 2px;
+    border-color: #ffc632;
+
+    background-image: url(./images/lock-focus.svg);
+    background-repeat: no-repeat;
+    background-position: 9px;
+}
+
+#eye{
+    height: 22px;
+    position: relative;
+    bottom: 35px;
+    left: 300px;
+    margin-bottom: -15px;
+    width: 22px;
+}
+
+.div-checkbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    justify-content: space-between;
+    margin-right: 119px;
+    margin-bottom: 20px;
+}
+
+#lembre-me{
+    display: flex;
+    font-size: 16px;
+}
+
+#checkbox{
+    height: 20px;
+    width: 20px;
+    
+}
+
+#btn-button{
+    font-size: 18px;
+    width: 342px;
+    height: 51px;
+    background-color: #ffc632;
+    border-radius: 4px;
+    font-weight: lighter;
+    border: none;
+    outline: 0;
+}
+
+#registre-se{
+    font-size: 14px;
+    margin-top: 15px;
+    margin-left: 167px;
+}
+
+#esqueci-senha{
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffc632;
+}
+
+
+#log-in{
+    display: flex;
+}
+
+#img-senha{
+    height: 20px;
+    width: 25px;
+    position: relative;
+    bottom: 35px;
+    left: 8px;
+}
+
+#imagem-principal{
+    height: 49rem;
+}
+
+#logo{
+    margin-top: 30px;
+    margin-left: 30px;
+
+}

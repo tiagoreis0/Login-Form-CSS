@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <title>Desafio: Login Form CSS</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div>
+            <img src="./images/logo.svg" id="logo" alt="Foto da logo"> 
+        </div>
+        
+        <div id="box-formulario">
+            <form id="form" action="">
+                <div class="div-conteudo h1">
+                    <div id="log-in" >
+                            <img src="./images/log-in.svg"  alt="log in">
+                            <h1 >Faça seu login</h1>
+                    </div>
+                    <p id="informacao-cadastro">Entre com suas informações de cadastro.</p>
+                </div>
+                <div id="id-email1" class="div-conteudo email-senha">
+                    <label for="email">E-mail</label>
+                    <input id="inputEmail" type="email" class="input" name="email" placeholder="Digite seu e-mail">
+                </div>
+                <div class="div-conteudo email-senha">
+                    <label for="senha">Senha</label>
+                    <input id="inputPassword" name="senha" type="password" class="inputPassword" placeholder="Digite sua senha">
+                    <img src="./images/eye.svg" id="eye" alt="">
+                </div>
+                <div class="div-checkbox">
+                    <div id="lembre-me"> 
+                        <input type="checkbox" name="checkbox" id="checkbox">         
+                        <span>Lembre-me</span>
+                    </div>
+    
+                    <a id="esqueci-senha" href="#">Esqueci minha senha</a>
+                        
+                </div>
+                <button type="submit" id="btn-button">ENTRAR</button>
+            </form>
+            <div id="registre-se">
+                <a href="#">Não tem uma conta? <strong>Registre-se</strong></a>
+            </div>
+        </div>
+    </div>
+    <div class="img">
+        <img src="./images/side-image.jpg" id="imagem-principal" alt="">
+    </div>
+</body>
+</html>
